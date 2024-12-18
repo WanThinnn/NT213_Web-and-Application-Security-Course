@@ -79,15 +79,15 @@ class SignupActivity : AppCompatActivity() {
         }
 
         // Test password strength
-//        if (!PasswordHelper.strength(password)) {
-//            binding.password.error = """|Weak password. Please use:
-//                                  |* both upper and lower case letters
-//                                  |* numbers
-//                                  |* special characters (e.g. !"#$%&')
-//                                  |* from 10 to 128 characters sequence""".trimMargin()
-//            binding.password.requestFocus()
-//            return
-//        }
+        if (!PasswordHelper.strength(password)) {
+            binding.password.error = """|Weak password. Please use:
+                                  |* both upper and lower case letters
+                                  |* numbers
+                                  |* special characters (e.g. !"#$%&')
+                                  |* from 10 to 128 characters sequence""".trimMargin()
+            binding.password.requestFocus()
+            return
+        }
 
         // Kiểm tra mật khẩu xác nhận
         if (confirmPassword != password) {
