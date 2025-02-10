@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="26.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/header" android:background="#ff018186" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="\nWelcome!" />
+    <TextView android:textSize="40.0sp" android:textStyle="bold" android:textColor="@color/design_default_color_secondary_variant" android:id="@id/userText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="36.0dip" android:layout_marginTop="200.0dip" android:text="Welcome user" />
+    <TextView android:textSize="40.0sp" android:textStyle="bold" android:textColor="@color/design_default_color_secondary_variant" android:id="@id/passwordHash" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="70.0dip" android:layout_marginTop="10.0dip" android:text="" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+Ôn Tập:
+- Tuần 1: Giới thiệu môn
+- Tuần 2: Ôn tập lại WebApp và những kiến thức liên quan (không xem lại được câu hỏi)
+- Tuần 3: Top 10 OWASP -> https://azota.vn/de-thi/ytcodf
+- Tuần 4: CSRF và XSS -> https://azota.vn/de-thi/ghbr1p
+- Tuần 5: SQLi -> https://azota.vn/de-thi/gjhngl
+- Tuần 6: RLFI Command Inclusion -> https://azota.vn/de-thi/j3pvv9
+- Tuần 7: Báo cáo đồ án Giữa Kỳ
+- Tuần 8: WAF Bypassing Techniques -> https://azota.vn/de-thi/pozl2n
+- Tuần 9: Anatomy of Mobile -> https://azota.vn/de-thi/afaas6
+- Tuần 10: Android Security Part 1 -> https://azota.vn/de-thi/lma0m9
+- Tuần 11: Android Security Part 2 -> https://azota.vn/de-thi/tys5uf
+- Tuần 12: Hacking phase, Pentesting (không tìm thấy câu hỏi)
+- Tuần 13,14,15: Báo cáo đồ án Cuối Kỳ

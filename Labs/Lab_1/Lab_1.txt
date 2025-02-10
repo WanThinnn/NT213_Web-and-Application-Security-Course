@@ -1,0 +1,8 @@
+b). A02:2021 – Cryptographic Failures
+username: admin
+password: admin1234
+
+
+c). A03:2021 – Injection
+username: admin
+password: ' OR '1'='1' --;

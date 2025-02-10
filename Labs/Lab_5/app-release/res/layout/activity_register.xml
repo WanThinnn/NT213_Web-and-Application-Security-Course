@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="26.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/header" android:background="#ff018186" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="\nLet's sign up!" />
+    <EditText android:id="@id/username" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="30.0dip" android:hint="Username" android:ems="10" android:inputType="text" />
+    <EditText android:id="@id/email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="30.0dip" android:hint="Email" android:ems="10" android:inputType="text" />
+    <EditText android:id="@id/password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="30.0dip" android:hint="Password" android:ems="10" android:inputType="textPassword" />
+    <EditText android:id="@id/matchPassword" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="30.0dip" android:hint="Confirm password" android:ems="10" android:inputType="textPassword" />
+    <Button android:textSize="18.0sp" android:id="@id/btn_register" android:layout_width="350.0dip" android:layout_height="55.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="25.0dip" android:text="SIGN UP" android:backgroundTint="@color/design_default_color_secondary_variant" app:cornerRadius="16.0dip" />
+</LinearLayout>

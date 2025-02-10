@@ -1,0 +1,65 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Kotlinc build active file",
+            "type": "shell",
+            "command": "kotlinc",
+            "args": [
+                "${workspaceFolder}/${fileBasenameNoExtension}.kt",
+                "-include-runtime",
+                "-d",
+                "${fileDirname}/${fileBasenameNoExtension}.jar"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "Compile Kotlin file to JAR"
+        },
+        {
+            "label": "Kotlinc run active file",
+            "type": "shell",
+            "command": "java",
+            "args": [
+                "-jar",
+                "${fileDirname}/${fileBasenameNoExtension}.jar"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "Run jar file"
+        },
+        {
+            "type": "shell",
+            "label": "C/C++: g++.exe build active file to DLL",
+            "command": "C:\\msys64\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-g2",
+                "-O3",
+                "${workspaceFolder}/${fileBasenameNoExtension}.cpp",
+                "-m64",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.dll",
+                "-shared",
+                "-DNDEBUG",
+                "-IC:\\Program Files\\Java\\jdk-22\\include",
+                "-IC:\\Program Files\\Java\\jdk-22\\include\\win32",
+                "-Wall"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": ["$gcc"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "compiler: C:\\msys64\\mingw64\\bin\\g++.exe"
+        }
+    ]
+}
+
